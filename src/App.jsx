@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Banner from './components/Banner';
+import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import TimeTable from './components/TimeTable';
 import './App.css';
@@ -7,6 +9,8 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <Banner />
+      <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/timetable" element={<TimeTable />} />
