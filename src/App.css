@@ -6,7 +6,7 @@
   overflow-x: hidden;
 }
 
-
+/* Stretch to the entire width of the screen  */
 .timetable {
   margin: 20px;
 }
