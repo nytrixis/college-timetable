@@ -37,4 +37,6 @@ const Carousel = () => {
 
 // Commits for testing part 1
 // commits for testing part 2 
+// Commits for testing part 3
+// commits for testing part 4 
 export default Carousel;
