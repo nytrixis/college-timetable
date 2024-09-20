@@ -35,4 +35,6 @@ const Carousel = () => {
   );
 };
 
+// Commits for testing part 1
+// commits for testing part 2 
 export default Carousel;
